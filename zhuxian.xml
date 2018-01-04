@@ -1,0 +1,1927 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document>
+	<name>OvitalMap_20171221_211841</name>
+	<Folder>
+		<name>10kV河台线主线</name>
+		<Placemark>
+			<name>10kV河台线</name>
+			<Style>
+				<LineStyle><color>7fffff80</color><width>4</width></LineStyle>
+				<IconStyle><Icon></Icon></IconStyle>
+			</Style>
+			<MultiGeometry>
+				<Point>
+					<coordinates>112.32037530,23.25538530,0</coordinates>
+				</Point>
+				<LineString>
+					<coordinatess>112.32037530,23.25538530,0 112.32037530,23.25538530,0 112.31950730,23.25570050,0 112.31880130,23.25594320,0 112.31809490,23.25618610,0 112.31738850,23.25642890,0 112.31668120,23.25667240,0 112.31668120,23.25667240,0 112.31609120,23.25674190,0 112.31526870,23.25715790,0 112.31456200,23.25740090,0 112.31385550,23.25764410,0 112.31314940,23.25788680,0 112.31244290,23.25812970,0 112.31173670,23.25837270,0 112.31140720,23.25908750,0 112.31107740,23.25980210,0 112.31107740,23.25980210,0 112.31056930,23.26088200,0 112.31022770,23.26160110,0 112.30989710,23.26229600,0 112.30942710,23.26284400,0 112.30896790,23.26336770,0 112.30850890,23.26389130,0 112.30779480,23.26348020,0 112.30716540,23.26311430,0 112.30653560,23.26274790,0 112.30590650,23.26238220,0 112.30527730,23.26201620,0 112.30464810,23.26165040,0 112.30401870,23.26128440,0 </coordinatess>
+				</LineString>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>10kV河台线源汇支线 #14</name>
+			<description>运维单位 : 乐城中心供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 水泥杆| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.28722560,23.28839370,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>10kV河台线 #64</name>
+			<description>运维单位 : 乐城中心供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 水泥杆| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.36475350,23.28862530,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>10kV河台线 #14+2</name>
+			<description>运维单位 : 禄步供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 铁塔| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.31110000,23.24790000,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>#23</name>
+			<description>运维单位 : 禄步供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 水泥杆| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.31806850,23.25324610,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>#43</name>
+			<description>运维单位 : 禄步供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 水泥杆| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.34068550,23.27457600,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>#7</name>
+			<description>运维单位 : 禄步供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 水泥杆| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.31059460,23.23732820,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>10kV河台线 #10</name>
+			<description>运维单位 : 乐城中心供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 水泥杆| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.38143000,23.34956430,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>10kV河台线 #24</name>
+			<description>运维单位 : 禄步供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 水泥杆| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.31885620,23.25338960,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>#41</name>
+			<description>运维单位 : 禄步供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 水泥杆| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.33749120,23.27207720,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>#54</name>
+			<description>运维单位 : 禄步供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 水泥杆| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.35618770,23.27672030,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>10kV河台线 #30</name>
+			<description>运维单位 : 禄步供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 水泥杆| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.32381350,23.25954700,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>#80</name>
+			<description>运维单位 : 乐城中心供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 水泥杆| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.37359600,23.30672760,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>10kV河台线 #35+3</name>
+			<description>运维单位 : 禄步供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 铁塔| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.32750000,23.26780000,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>10kV河台线 #37</name>
+			<description>运维单位 : 禄步供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 铁塔| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.33090000,23.26660000,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>10kV河台线 #56</name>
+			<description>运维单位 : 禄步供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 水泥杆| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.35859340,23.27764000,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>#55</name>
+			<description>运维单位 : 禄步供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 水泥杆| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.35747050,23.27715630,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>10kV河台线 #71</name>
+			<description>运维单位 : 乐城中心供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 水泥杆| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.37177250,23.29738970,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>10kV河台线 #44</name>
+			<description>运维单位 : 禄步供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 水泥杆| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.34228270,23.27582530,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>10kV河台线 #56+1</name>
+			<description>运维单位 : 禄步供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 水泥杆| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.35906660,23.27882210,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>10kV河台线 #20</name>
+			<description>运维单位 : 乐城中心供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 水泥杆| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.36566980,23.26908490,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>10kV河台线留洞发电站支线 #1</name>
+			<description>运维单位 : 乐城中心供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 水泥杆| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.29665350,23.26317920,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>10kV河台线 #35+4</name>
+			<description>运维单位 : 禄步供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 铁塔| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.32860000,23.26780000,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>#2</name>
+			<description>运维单位 : 禄步供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 铁塔| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.30743840,23.23033980,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>10kV河台线 #57</name>
+			<description>运维单位 : 禄步供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 铁塔| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.36070000,23.28180000,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>10kV河台线 #60+2</name>
+			<description>运维单位 : 乐城中心供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 铁塔| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.36200000,23.28460000,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>#3</name>
+			<description>运维单位 : 禄步供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 水泥杆| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.30734090,23.23002610,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>10kV河台线 #18</name>
+			<description>运维单位 : 禄步供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 水泥杆| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.31423800,23.25210810,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>#84</name>
+			<description>运维单位 : 乐城中心供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 水泥杆| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.36813920,23.31293850,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>10kV河台线 #8</name>
+			<description>运维单位 : 禄步供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 水泥杆| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.31127170,23.23870100,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>10kV河台线 #14</name>
+			<description>运维单位 : 禄步供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 铁塔| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.31090000,23.24640000,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>10kV河台线 #14+1</name>
+			<description>运维单位 : 禄步供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 铁塔| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.31120000,23.24740000,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>#78</name>
+			<description>运维单位 : 乐城中心供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 水泥杆| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.37527850,23.30506050,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>10kV马腌线 #1,10kV河台线 #1</name>
+			<description>运维单位 : 禄步供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 铁塔| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.30763460,23.23091720,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>10kV河台线 #16</name>
+			<description>运维单位 : 禄步供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 铁塔| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.31190000,23.25020000,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>10kV河台线 #35+5</name>
+			<description>运维单位 : 禄步供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 铁塔| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.32930000,23.26750000,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>10kV河台线 #38</name>
+			<description>运维单位 : 乐城中心供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 水泥杆| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.37419180,23.26478500,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>10kV河台线 #77</name>
+			<description>运维单位 : 乐城中心供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 水泥杆| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.37611970,23.30422700,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>#88</name>
+			<description>运维单位 : 乐城中心供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 水泥杆| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.36317960,23.31718670,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>10kV河台线 #26</name>
+			<description>运维单位 : 禄步供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 铁塔| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.32053760,23.25552530,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>10kV河台线 #15+1</name>
+			<description>运维单位 : 禄步供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 铁塔| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.31170000,23.24980000,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>#79</name>
+			<description>运维单位 : 乐城中心供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 水泥杆| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.37443720,23.30589400,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>10kV河台线 #65</name>
+			<description>运维单位 : 乐城中心供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 水泥杆| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.36566870,23.29000560,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>10kV河台线 #46</name>
+			<description>运维单位 : 禄步供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 水泥杆| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.34552690,23.27551660,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>#10</name>
+			<description>运维单位 : 禄步供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 水泥杆| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.31110900,23.24130720,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>10kV河台线 #34+2</name>
+			<description>运维单位 : 禄步供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 铁塔| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.32580000,23.26510000,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>10kV河台线 #36</name>
+			<description>运维单位 : 禄步供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 铁塔| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.33030000,23.26690000,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>10kV河台线 #15</name>
+			<description>运维单位 : 禄步供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 铁塔| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.31110000,23.24830000,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>#82</name>
+			<description>运维单位 : 乐城中心供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 水泥杆| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.37088500,23.30981330,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>10kV河台线 #89</name>
+			<description>运维单位 : 乐城中心供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 水泥杆| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.36194900,23.31775620,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>#70</name>
+			<description>运维单位 : 乐城中心供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 水泥杆| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.37073480,23.29618900,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>#29</name>
+			<description>运维单位 : 禄步供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 水泥杆| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.32299460,23.25854160,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>10kV河台线源汇支线 #13</name>
+			<description>运维单位 : 乐城中心供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 水泥杆| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.28753020,23.28845270,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>#20</name>
+			<description>运维单位 : 禄步供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 水泥杆| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.31570490,23.25281570,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>#25</name>
+			<description>运维单位 : 禄步供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 水泥杆| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.31969700,23.25445750,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>#42</name>
+			<description>运维单位 : 禄步供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 水泥杆| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.33908830,23.27332650,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>#73</name>
+			<description>运维单位 : 乐城中心供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 水泥杆| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.37384790,23.29979120,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>10kV河台线 #49</name>
+			<description>运维单位 : 禄步供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 水泥杆| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.35119970,23.27499990,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>10kV河台线 #51</name>
+			<description>运维单位 : 禄步供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 水泥杆| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.35316460,23.27569320,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>10kV河台线 #34+3</name>
+			<description>运维单位 : 禄步供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 铁塔| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.32580000,23.26590000,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>#81</name>
+			<description>运维单位 : 乐城中心供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 水泥杆| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.37218660,23.30833170,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>10kV河台线 #37+1</name>
+			<description>运维单位 : 禄步供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 铁塔| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.33140000,23.26710000,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>#72</name>
+			<description>运维单位 : 乐城中心供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 水泥杆| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.37281020,23.29859040,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>#1</name>
+			<description>运维单位 : 禄步供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 水泥杆| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.31240470,23.24032330,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>#47</name>
+			<description>运维单位 : 禄步供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 水泥杆| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.34745690,23.27531850,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>#17</name>
+			<description>运维单位 : 禄步供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 水泥杆| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.31355940,23.25154370,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>10kV河台线 #39</name>
+			<description>运维单位 : 禄步供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 铁塔| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.33330000,23.26870000,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>10kV河台线 #40</name>
+			<description>运维单位 : 禄步供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 水泥杆| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.33589450,23.27082730,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>10kV河台线 #6</name>
+			<description>运维单位 : 禄步供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 水泥杆| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.30931660,23.23527480,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>10kV河台线 #12</name>
+			<description>运维单位 : 禄步供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 水泥杆| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.31083360,23.24374710,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>#62</name>
+			<description>运维单位 : 乐城中心供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 水泥杆| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.36292300,23.28586460,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>10kV河台线 #60+1</name>
+			<description>运维单位 : 乐城中心供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 铁塔| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.36190000,23.28360000,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>10kV河台线罗文隧道支线 #8</name>
+			<description>运维单位 : 乐城中心供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 水泥杆| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.40891280,23.30394810,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>10kV河台线 #35</name>
+			<description>运维单位 : 禄步供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 铁塔| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.32620000,23.26690000,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>10kV河台线 #61</name>
+			<description>运维单位 : 乐城中心供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 水泥杆| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.36201050,23.28503920,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>#28</name>
+			<description>运维单位 : 禄步供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 水泥杆| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.32229570,23.25768360,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>#52</name>
+			<description>运维单位 : 禄步供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 水泥杆| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.35424690,23.27606070,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>#68</name>
+			<description>运维单位 : 乐城中心供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 水泥杆| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.36865940,23.29378750,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>#69</name>
+			<description>运维单位 : 乐城中心供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 水泥杆| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.36969710,23.29498820,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>10kV河台线 #90</name>
+			<description>运维单位 : 乐城中心供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 水泥杆| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.35980430,23.31839730,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>10kV河台线 #51</name>
+			<description>运维单位 : 乐城中心供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 水泥杆| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.43441050,23.27034160,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>10kV河台线 #48</name>
+			<description>运维单位 : 禄步供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 水泥杆| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.34938670,23.27512030,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>10kV河台线 #58</name>
+			<description>运维单位 : 禄步供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 铁塔| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.36080000,23.28220000,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>10kV河台线 #27</name>
+			<description>运维单位 : 禄步供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 水泥杆| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.32135670,23.25653070,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>#19</name>
+			<description>运维单位 : 禄步供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 水泥杆| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.31491700,23.25267210,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>#22</name>
+			<description>运维单位 : 禄步供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 水泥杆| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.31728050,23.25310260,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>#74</name>
+			<description>运维单位 : 乐城中心供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 水泥杆| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.37488560,23.30099190,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>10kV河台线 #76</name>
+			<description>运维单位 : 乐城中心供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 铁塔| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.37696100,23.30339350,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>#11</name>
+			<description>运维单位 : 禄步供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 水泥杆| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.31104440,23.24260780,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>10kV河台线 #13</name>
+			<description>运维单位 : 禄步供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 水泥杆| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.31076930,23.24471690,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>10kV河台线 #63</name>
+			<description>运维单位 : 乐城中心供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 水泥杆| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.36383820,23.28724490,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>#31</name>
+			<description>运维单位 : 禄步供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 水泥杆| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.32482250,23.26074740,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>10kV河台线 #85</name>
+			<description>运维单位 : 乐城中心供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 水泥杆| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.36720820,23.31400450,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>10kV河台线 #34+1</name>
+			<description>运维单位 : 禄步供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 铁塔| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.32600000,23.26420000,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>#5</name>
+			<description>运维单位 : 禄步供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 水泥杆| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.30781330,23.23284940,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>10kV河台线 #50</name>
+			<description>运维单位 : 禄步供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 水泥杆| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.35241840,23.27543880,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>#75</name>
+			<description>运维单位 : 乐城中心供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 水泥杆| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.37592330,23.30219270,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>10kV河台线 #38+1</name>
+			<description>运维单位 : 禄步供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 水泥杆| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.33285060,23.26830050,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>10kV河台线 #66</name>
+			<description>运维单位 : 乐城中心供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 水泥杆| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.36658400,23.29138600,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>#87</name>
+			<description>运维单位 : 乐城中心供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 水泥杆| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.36441030,23.31661730,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>10kV河台线 #60</name>
+			<description>运维单位 : 乐城中心供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 铁塔| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.36180000,23.28300000,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>10kV河台线 #1</name>
+			<description>运维单位 : 乐城中心供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 水泥杆| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.38107890,23.29974570,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>10kV河台线 #4</name>
+			<description>运维单位 : 乐城中心供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 水泥杆| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.44020110,23.26730020,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>10kV河台线 #38</name>
+			<description>运维单位 : 禄步供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 铁塔| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.33240000,23.26790000,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>#67</name>
+			<description>运维单位 : 乐城中心供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 水泥杆| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.36762170,23.29258670,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>#45</name>
+			<description>运维单位 : 禄步供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 水泥杆| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.34390470,23.27567110,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>#86</name>
+			<description>运维单位 : 乐城中心供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 水泥杆| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.36564090,23.31604780,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>#9</name>
+			<description>运维单位 : 禄步供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 水泥杆| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.31117390,23.24000670,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>10kV河台线 #59</name>
+			<description>运维单位 : 乐城中心供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 铁塔| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.36140000,23.28220000,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>10kV河台线 #32</name>
+			<description>运维单位 : 禄步供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 水泥杆| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.32583170,23.26194770,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>10kV河台线 #35+2</name>
+			<description>运维单位 : 禄步供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 铁塔| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.32690000,23.26780000,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>10kV河台线 #34</name>
+			<description>运维单位 : 禄步供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 铁塔| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.32620000,23.26350000,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>10kV河台线 #33</name>
+			<description>运维单位 : 禄步供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 铁塔| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.32660000,23.26290000,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>10kV河台线 #35+1</name>
+			<description>运维单位 : 禄步供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 铁塔| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.32630000,23.26730000,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>#21</name>
+			<description>运维单位 : 禄步供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 水泥杆| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.31649280,23.25295920,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>10kV河台线石洋降电站支线 #1</name>
+			<description>运维单位 : 乐城中心供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 水泥杆| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.43159360,23.28219580,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>10kV河台线 #56+2</name>
+			<description>运维单位 : 禄步供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 铁塔| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.36020000,23.28070000,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>#53</name>
+			<description>运维单位 : 禄步供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 水泥杆| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.35532900,23.27642870,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>10kV河台线电站支线 #2</name>
+			<description>运维单位 : 乐城中心供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 水泥杆| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.37708960,23.30400610,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>#83</name>
+			<description>运维单位 : 乐城中心供电所| 变电站 : 白洞变电站| 馈线名称 : 10kV河台线| 支线名 : 10kV河台线| 杆塔类型 : 水泥杆| 文件路径计算 : /白洞变电站/10kV河台线/10kV河台线主线</description>
+			<Style>
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+					</Icon>
+					<color>ffffffff</color>
+					<scale>1.0</scale>
+				</IconStyle>
+			</Style>
+			<Point>
+				<coordinates>112.36952940,23.31135610,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+
