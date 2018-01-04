@@ -18,7 +18,7 @@ def tag_get(tag):
 		return
 	else:
 		tag_get(next_folder)
-#####################################       寻找变电站下的文件夹标签
+
 
 
 ######################################		求两点距离
@@ -30,8 +30,8 @@ def get_dist_min(point1,point2):     #		求最小距离
 	if dist==0:
 		return 100
 	else:
-		return dist
-######################################		求两点距离
+		return [dist,point2.id]
+
 
 
 ######################################       对线路各点排序
@@ -55,7 +55,7 @@ def order_list(maxdist_p,line_f):
 
 	
 	return list1_order
-######################################       对线路各点排序
+
 
 
 
@@ -73,29 +73,30 @@ def get_maxdist(list_vec_f):
 	# print(max_dist)
 	max_p2=list_vec[max_p].max_p
 	return [max_p,max_p2]
-######################################      求最大距离点的位置
 
 
 ######################################      求点的最小距离的位置
 def get_mindist(poi,line_f):
 	list_min=[]                       ##存放某点与其它点的最小距离
+	point_min_dist=namedtuple('point_min_dist',['id','min_dist'])
 	for i in range(len(line_f)):
 		list_min.append(get_dist_min(line_f[poi],line_f[i]))
 	np_list2=np.array(list_min)
-	min_p = np.where(np_list2 == np.min(np_list2))[0][0]  #求最小值位置
+	min_p = np.where(np_list2 == np.min(np_list2))  #求最小值位置
+	point_min_dist(id=i, min_dist=get_dist_min(line_f[poi], line_f[i]))
 	return min_p
-######################################      求点的最小距离的位置
 
 
-######################################      求最某点最大和最小距离的位置
+
+######################################      求最某点最大距离的位置
 def get_pointplc(poi,line_f):
 	list_max=[]                       ##存放某点与其它点的最大距离
 	for i in range(len(line_f)):
-		list_max.append(get_dist_max(line[poi],line[i]))
+		list_max.append(get_dist_max(line_f[poi],line_f[i]))
 	np_list1=np.array(list_max)
 	max_p = np.where(np_list1==np.max(np_list1))   #求最大值位置
 	return max_p[0][0]
-######################################      求最某点最大和最小距离的位置
+
 
 
 ######################################      按order画出图
@@ -112,7 +113,7 @@ def draw(list,line_f):
 	plt.plot(jd_list1,wd_list1)
 
 
-######################################
+
 
 
 
@@ -162,7 +163,7 @@ plt.show()
 
 # print(order_list(line))
 
-######################################                        主程序
+
 
 
 
