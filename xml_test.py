@@ -30,7 +30,7 @@ def get_dist_min(point1,point2):     #		求最小距离
 	if dist==0:
 		return 100
 	else:
-		return [dist,point2.id]
+		return dist
 
 
 
@@ -41,19 +41,23 @@ def order_list(maxdist_p,line_f):
 	list1_order.append(maxdist_p[0])
 	
 	for i in range(len(line_tmp)):
-		print(list1_order)
-		mindist_p=get_mindist(list1_order[i],line_tmp)
-		print(mindist_p)
-		if mindist_p in list1_order:
-			line_tmp[mindist_p]=line_tmp[mindist_p]._replace(jd=float(10000),wd=float(0))
-			print(line_tmp)
-			mindist_p = get_mindist(list1_order[i], line_tmp)
-			print(mindist_p)
-			list1_order.append(mindist_p)
+		if len(list1_order)==len(line_tmp):
+			break
 		else:
+			print(list1_order)
+			print('first::line_tmp:', line_tmp)
+			mindist_p=get_mindist(list1_order[i],line_tmp)
+			print(mindist_p)
+			while mindist_p in list1_order:
+			# if mindist_p in list1_order:
+				line_tmp[mindist_p]=line_tmp[mindist_p]._replace(jd=float(10000),wd=float(0))
+				print('line_tmp:',line_tmp)
+				mindist_p = get_mindist(list1_order[i], line_tmp)
+				print(mindist_p)
+				# list1_order.append(mindist_p)
+			# else:
 			list1_order.append(mindist_p)
-
-	
+			line_tmp = line_f[:]
 	return list1_order
 
 
@@ -78,12 +82,10 @@ def get_maxdist(list_vec_f):
 ######################################      求点的最小距离的位置
 def get_mindist(poi,line_f):
 	list_min=[]                       ##存放某点与其它点的最小距离
-	point_min_dist=namedtuple('point_min_dist',['id','min_dist'])
 	for i in range(len(line_f)):
 		list_min.append(get_dist_min(line_f[poi],line_f[i]))
 	np_list2=np.array(list_min)
-	min_p = np.where(np_list2 == np.min(np_list2))  #求最小值位置
-	point_min_dist(id=i, min_dist=get_dist_min(line_f[poi], line_f[i]))
+	min_p = np.where(np_list2 == np.min(np_list2))[0][0]  #求最小值位置
 	return min_p
 
 
