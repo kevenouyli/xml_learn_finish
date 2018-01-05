@@ -4,10 +4,10 @@
        <login username="pytest" passwd='123456'>
             　　<caption>Python</caption>
              <item id="4">
-                    <caption>测试</caption>
+                    <caption>20</caption>
              </item>
        </login>
     <item id="2">
-            <caption>Zope</caption>
+            <caption>20</caption>
     </item>
 </catalog>

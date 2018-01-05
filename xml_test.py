@@ -38,22 +38,22 @@ def get_dist_min(point1,point2):     #		求最小距离
 def order_list(maxdist_p,line_f):
 	list1_order=[]
 	line_tmp=line_f[:]
-	list1_order.append(maxdist_p[0])
+	list1_order.append(maxdist_p[1])
 	
 	for i in range(len(line_tmp)):
 		if len(list1_order)==len(line_tmp):
 			break
 		else:
-			print(list1_order)
-			print('first::line_tmp:', line_tmp)
+			# print(list1_order)
+			# print('first::line_tmp:', line_tmp)
 			mindist_p=get_mindist(list1_order[i],line_tmp)
-			print(mindist_p)
+			# print(mindist_p)
 			while mindist_p in list1_order:
 			# if mindist_p in list1_order:
 				line_tmp[mindist_p]=line_tmp[mindist_p]._replace(jd=float(10000),wd=float(0))
-				print('line_tmp:',line_tmp)
+				# print('line_tmp:',line_tmp)
 				mindist_p = get_mindist(list1_order[i], line_tmp)
-				print(mindist_p)
+				# print(mindist_p)
 				# list1_order.append(mindist_p)
 			# else:
 			list1_order.append(mindist_p)
@@ -106,46 +106,50 @@ def draw(list,line_f):
 	jd_list1=[]
 	wd_list1=[]
 	for i in list:
-		print(i)
+		# print(i)
 		jd_list1.append(line_f[i].jd)
 		wd_list1.append(line_f[i].wd)
 	plt.figure(2)
-	print(jd_list1)
-	print(wd_list1)
+	# print(jd_list1)
+	# print(wd_list1)
 	plt.plot(jd_list1,wd_list1)
 
 
-
-
-
+######################################      按list_order整理好line,返回字符串数组
+def orderlist_line(order,line_f):
+	line_use=line_f[:]
+	line_result=[]
+	for i in order:
+		line_result.append(str(line_use[i].jd)+','+str(line_use[i].wd)+','+'0')
+	return  line_result
 
 ######################################                        主程序
 Point=namedtuple('point',['id','jd','wd']) # 定义点（经度，纬度）
 point_mesg=namedtuple('vec',['root_p','max_p'])   #定义存放点（最小值，最大值）
 tag_target=None
-per = ET.parse('2017.xml')
-p = per.getroot()
-tag1 = p.getchildren()[0]    #get document
+tree= ET.parse('2017.xml')
+root = tree.getroot()
+tag1 = root.getchildren()[0]    #get document
 tag2 = tag1.getchildren()[1]  #get  first_folder
 bdz_re=re.compile(r".*站\b")
 jd_list = []  # 存放经度
 wd_list = []  # 存放纬度
+line = []   #存放各点经纬度
 place=[]
 tag_get(tag2)
-
 for i in tag_target.iter("coordinates"):
 	place.append(i.text)
 fen = re.compile(',')
-line = []   #存放各点经纬度
+
 for i in place:     #存放经纬度
 	total = fen.split(i)
 	line.append(Point(id=place.index(i),jd=float(total[0]),wd=float(total[1])))
 	jd_list.append(float(total[0]))
 	wd_list.append(float(total[1]))
 	
-for i in range(len(line)):  ##画出各点
-	plt.figure(1)
-	plt.plot(line[i].jd,line[i].wd, 'bs')
+# for i in range(len(line)):  ##画出各点
+# 	plt.figure(1)
+# 	plt.plot(line[i].jd,line[i].wd, 'bs')
 	
 list_vec=[]   #存放各点的最大、最小距离
 
@@ -157,12 +161,41 @@ max_dist_point=get_maxdist(list_vec)
 print(max_dist_point)
 print(line)
 list_r_order=order_list(max_dist_point,line)
-plt.figure(3)
-plt.plot(jd_list,wd_list)    ##画出各点连线
-draw(list_r_order,line)
-plt.show()
+# plt.figure(3)
+# plt.plot(jd_list,wd_list)    ##画出各点连线
+# draw(list_r_order,line)
+print(list_r_order)
+right_list=orderlist_line(list_r_order,line)
+print(right_list)
+str_right_list=','.join(right_list)
+print (str_right_list)
+# plt.show()
 
+########################################################################################################    加入xml节点
 
+Placemark = ET.Element('Placemark')  # Element(tag, attrib={}, **extra)
+name = ET.SubElement(Placemark,'name')  # SubElement(parent, tag, attrib={}, **extra)
+name.text = tag_target.getchildren()[0].text
+Style = ET.SubElement(Placemark,'Style')
+LineStyle = ET.SubElement(Style,'LineStyle')
+color = ET.SubElement(LineStyle,'color')
+color.text = '7fffff80'
+width = ET.SubElement(LineStyle,'width')
+width.text = '4'
+IconStyle = ET.SubElement(Style,'IconStyle')
+Icon = ET.SubElement(IconStyle,'Icon')
+MultiGeometry = ET.SubElement(Placemark,'MultiGeometry')
+Point = ET.SubElement(MultiGeometry,'Point')
+coordinates = ET.SubElement(Point,'coordinates')
+coordinates.text=right_list[0]
+LineString = ET.SubElement(MultiGeometry,'LineString')
+coordinates = ET.SubElement(LineString,'coordinates')
+coordinates.text = str_right_list
+
+tag_target.append(Placemark)
+
+# write(file, encoding="us-ascii", xml_declaration=None, default_namespace=None, method="xml")
+tree.write('2017_updated.xml', encoding='utf-8',xml_declaration=True)
 # print(order_list(line))
 
 
