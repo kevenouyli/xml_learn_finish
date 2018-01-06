@@ -5,6 +5,8 @@ import math
 import numpy as np
 import matplotlib.pyplot as plt
 from  collections import namedtuple
+import xml.dom.minidom as xdm
+
 
 #####################################       寻找变电站下的文件夹标签
 def tag_get(tag):
@@ -137,6 +139,7 @@ wd_list = []  # 存放纬度
 line = []   #存放各点经纬度
 place=[]
 tag_get(tag2)
+
 for i in tag_target.iter("coordinates"):
 	place.append(i.text)
 fen = re.compile(',')
@@ -167,40 +170,58 @@ list_r_order=order_list(max_dist_point,line)
 print(list_r_order)
 right_list=orderlist_line(list_r_order,line)
 print(right_list)
-str_right_list=','.join(right_list)
+str_right_list=' '.join(right_list)
 print (str_right_list)
 # plt.show()
 
 ########################################################################################################    加入xml节点
+#  1、使用etree 添加xml
+Placemark1 = ET.Element('Placemark')  # Element(tag, attrib={}, **extra)
+name1 = ET.SubElement(Placemark1,'name')  # SubElement(parent, tag, attrib={}, **extra)
+name1.text = tag_target.getchildren()[0].text
+Style1 = ET.SubElement(Placemark1,'Style')
+LineStyle1 = ET.SubElement(Style1,'LineStyle')
+color1 = ET.SubElement(LineStyle1,'color')
+color1.text = '7fffff80'
+width1 = ET.SubElement(LineStyle1,'width')
+width1.text = '4'
+IconStyle1 = ET.SubElement(Style1,'IconStyle')
+Icon1 = ET.SubElement(IconStyle1,'Icon')
+MultiGeometry1 = ET.SubElement(Placemark1,'MultiGeometry')
+Point1 = ET.SubElement(MultiGeometry1,'Point')
+coordinates1 = ET.SubElement(Point1,'coordinates')
+coordinates1.text=right_list[0]
+LineString1 = ET.SubElement(MultiGeometry1,'LineString')
+coordinates1 = ET.SubElement(LineString1,'coordinates')
+coordinates1.text = str_right_list
 
-Placemark = ET.Element('Placemark')  # Element(tag, attrib={}, **extra)
-name = ET.SubElement(Placemark,'name')  # SubElement(parent, tag, attrib={}, **extra)
-name.text = tag_target.getchildren()[0].text
-Style = ET.SubElement(Placemark,'Style')
-LineStyle = ET.SubElement(Style,'LineStyle')
-color = ET.SubElement(LineStyle,'color')
-color.text = '7fffff80'
-width = ET.SubElement(LineStyle,'width')
-width.text = '4'
-IconStyle = ET.SubElement(Style,'IconStyle')
-Icon = ET.SubElement(IconStyle,'Icon')
-MultiGeometry = ET.SubElement(Placemark,'MultiGeometry')
-Point = ET.SubElement(MultiGeometry,'Point')
-coordinates = ET.SubElement(Point,'coordinates')
-coordinates.text=right_list[0]
-LineString = ET.SubElement(MultiGeometry,'LineString')
-coordinates = ET.SubElement(LineString,'coordinates')
-coordinates.text = str_right_list
-
-tag_target.append(Placemark)
+tag_target.append(Placemark1)
 
 # write(file, encoding="us-ascii", xml_declaration=None, default_namespace=None, method="xml")
-tree.write('2017_updated.xml', encoding='utf-8',xml_declaration=True)
-# print(order_list(line))
+tree.write('2017_updated.xml', encoding='utf-8')
+# # print(order_list(line))
 
 
-
-
+#   2、采用dom进行解析
+# domtree = xdm.parse("2017.xml")
+# root = domtree.documentElement
+# tag1=root.childNodes
+# tag2=tag1[1].getElementsByTagName('Folder')
+# tar_tag=tag2[3].childNodes[1]
+# print(tar_tag.childNodes[0].nodeValue)
+# def dom_tag_get(tag):
+# 	global dom_tag_target
+# 	next_name=tag.getchildren()[0]
+# 	next_folder = tag.getchildren()[1]
+# 	print(next_name.text)
+# 	bdz=bdz_re.match(next_name.text)
+# 	if bdz :
+# 		tag_target=next_folder.getchildren()[1]
+# 		return
+# 	else:
+# 		tag_get(next_folder)
+#
+#
 
 	
 
