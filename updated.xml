@@ -1,0 +1,12 @@
+<catalog>
+       <maxid>4</maxid>
+       <login passwd="123456" username="pytest">
+            　　<caption>Python</caption>
+             <item id="4">
+                    <caption>20</caption>
+             </item>
+       </login>
+    <item id="2">
+            <caption>20</caption>
+    </item>
+<Placemark><name /><Style><LineStyle><color>7fffff80</color><width>4</width></LineStyle><IconStyle><Icon /></IconStyle></Style><MultiGeometry><Point><coordinates>112.32037530,23.25538530,0</coordinates></Point><LineString><coordinates>112.32037530,23.25538530,0 112.32037530,23.25538530,0 112.31950730,23.25570050,0</coordinates></LineString></MultiGeometry></Placemark></catalog>

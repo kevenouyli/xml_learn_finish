@@ -1,0 +1,122 @@
+Index: teset.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- teset.py	(revision b1d15fcdb35d7df150f8be6f9875d735f6ca3e39)
++++ teset.py	(revision 40a376ebbce7b54bc3bc91f981d1044818628550)
+@@ -1,9 +1,12 @@
+-a=[1,2,5,4,6,8,7]
+-for i in range(len(a)):
+-	print(a[i])
+-	
+-def df(ab):
+-	ab[3]=100
+-	
+-df(ab)
+-print(a)
+\ No newline at end of file
++import numpy as np
++a=[[100,10],[2,14],[52,56],[4,72],[5,27],[6,32]]
++b=np.array(a)
++def get_max(a):
++	b=[]
++	for i in a:
++		b.append(i[1])
++	return	max(b)
++d=get_max(a)
++
++g=np.where(b==d)
++print(g[0][0])
+\ No newline at end of file
+Index: xml_test.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>GBK
+===================================================================
+--- xml_test.py	(revision b1d15fcdb35d7df150f8be6f9875d735f6ca3e39)
++++ xml_test.py	(revision 40a376ebbce7b54bc3bc91f981d1044818628550)
+@@ -18,7 +18,7 @@
+ 		return
+ 	else:
+ 		tag_get(next_folder)
+-#####################################       寻找变电站下的文件夹标签
++
+ 
+ 
+ ######################################		求两点距离
+@@ -30,8 +30,8 @@
+ 	if dist==0:
+ 		return 100
+ 	else:
+-		return dist
+-######################################		求两点距离
++		return [dist,point2.id]
++
+ 
+ 
+ ######################################       对线路各点排序
+@@ -55,7 +55,7 @@
+ 
+ 	
+ 	return list1_order
+-######################################       对线路各点排序
++
+ 
+ 
+ 
+@@ -73,29 +73,30 @@
+ 	# print(max_dist)
+ 	max_p2=list_vec[max_p].max_p
+ 	return [max_p,max_p2]
+-######################################      求最大距离点的位置
+ 
+ 
+ ######################################      求点的最小距离的位置
+ def get_mindist(poi,line_f):
+ 	list_min=[]                       ##存放某点与其它点的最小距离
++	point_min_dist=namedtuple('point_min_dist',['id','min_dist'])
+ 	for i in range(len(line_f)):
+ 		list_min.append(get_dist_min(line_f[poi],line_f[i]))
+ 	np_list2=np.array(list_min)
+-	min_p = np.where(np_list2 == np.min(np_list2))[0][0]  #求最小值位置
++	min_p = np.where(np_list2 == np.min(np_list2))  #求最小值位置
++	point_min_dist(id=i, min_dist=get_dist_min(line_f[poi], line_f[i]))
+ 	return min_p
+-######################################      求点的最小距离的位置
+ 
+ 
+-######################################      求最某点最大和最小距离的位置
++
++######################################      求最某点最大距离的位置
+ def get_pointplc(poi,line_f):
+ 	list_max=[]                       ##存放某点与其它点的最大距离
+ 	for i in range(len(line_f)):
+-		list_max.append(get_dist_max(line[poi],line[i]))
++		list_max.append(get_dist_max(line_f[poi],line_f[i]))
+ 	np_list1=np.array(list_max)
+ 	max_p = np.where(np_list1==np.max(np_list1))   #求最大值位置
+ 	return max_p[0][0]
+-######################################      求最某点最大和最小距离的位置
++
+ 
+ 
+ ######################################      按order画出图
+@@ -112,7 +113,7 @@
+ 	plt.plot(jd_list1,wd_list1)
+ 
+ 
+-######################################
++
+ 
+ 
+ 
+@@ -162,7 +163,7 @@
+ 
+ # print(order_list(line))
+ 
+-######################################                        主程序
++
+ 
+ 
+ 
