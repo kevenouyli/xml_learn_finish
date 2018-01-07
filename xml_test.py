@@ -38,11 +38,10 @@ def get_dist_min(point1,point2):     #		求最小距离
 
 
 ######################################       对线路各点排序
-def order_list(maxdist_p,line_f):
+def order_list1(maxdist_p,line_f):
 	list1_order=[]
 	line_tmp=line_f[:]
 	list1_order.append(maxdist_p[1])
-	
 	for i in range(len(line_tmp)):
 		if len(list1_order)==len(line_tmp):
 			break
@@ -61,7 +60,50 @@ def order_list(maxdist_p,line_f):
 			# else:
 			list1_order.append(mindist_p)
 			line_tmp = line_f[:]
+	
 	return list1_order
+
+
+def order_list2(maxdist_p, line_f):
+	list1_order = []
+	line_tmp = line_f[:]
+	list1_order.append(maxdist_p[0])
+	for i in range(len(line_tmp)):
+		if len(list1_order) == len(line_tmp):
+			break
+		else:
+			# print(list1_order)
+			# print('first::line_tmp:', line_tmp)
+			mindist_p = get_mindist(list1_order[i], line_tmp)
+			# print(mindist_p)
+			while mindist_p in list1_order:
+				# if mindist_p in list1_order:
+				line_tmp[mindist_p] = line_tmp[mindist_p]._replace(jd=float(10000), wd=float(0))
+				# print('line_tmp:',line_tmp)
+				mindist_p = get_mindist(list1_order[i], line_tmp)
+			# print(mindist_p)
+			# list1_order.append(mindist_p)
+			# else:
+			list1_order.append(mindist_p)
+			line_tmp = line_f[:]
+	return list1_order
+
+######################################      求拍序好的线的总距离
+def get_orderline_dist(list_order_f,line):
+	line_use=line[:]
+	list_order_use=list_order_f[:]
+	dist=[]
+	for i in range(len(list_order_use)-1):
+		j=list_order_use[i]
+		k=list_order_use[i+1]
+		dist.append(float(np.square(line_use[j].jd -line_use[k].jd) + np.square(line_use[j].wd- line_use[k].wd)))
+	dist_sum=sum(dist)
+	return  dist_sum
+		
+
+
+
+
 
 
 
@@ -149,9 +191,17 @@ def get_jwd(tag_target_f):
 	max_dist_point = get_maxdist(list_vec,line)
 	print(max_dist_point)
 	print(line)
-	list_r_order = order_list(max_dist_point, line)
-	right_list = orderlist_line(list_r_order, line)
-	str_right_list = ' '.join(right_list)
+	list_r_order1 = order_list1(max_dist_point, line)
+	list_r_order2 = order_list2(max_dist_point, line)
+	cmp1=get_orderline_dist(list_r_order1,line)
+	cmp2=get_orderline_dist(list_r_order2,line)
+	if cmp1>cmp2:                                         ####比较
+		right_list = orderlist_line(list_r_order2, line)
+		str_right_list = ' '.join(right_list)
+	else:
+		right_list = orderlist_line(list_r_order1, line)
+		str_right_list = ' '.join(right_list)
+	
 	
 	return [str_right_list,right_list]
 	
